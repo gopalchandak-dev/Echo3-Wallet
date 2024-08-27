@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import React,{ useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Keypair } from '@solana/web3.js';
 import { mnemonicToSeed } from 'bip39';
