@@ -1,0 +1,97 @@
+/* App.css */
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin: 20px;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #e4f0fd, #576380);
+  color: #333;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+
+.welcome-section {
+  
+
+  text-align: center;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 50px;
+  width: 50%;
+  max-width: 500px;
+  margin: 650px; /* Center container with auto margins */
+}
+
+.title {
+  color: #2e2e2e;
+  margin-bottom: 10px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.tagline {
+  color: #777;
+  margin-bottom: 30px;
+  font-size: 1.2rem;
+}
+
+.option-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  width: 100%;
+  padding: 12px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #27ae60;
+  transform: scale(2.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-secondary {
+  background: #6c757d;
+  color: #fff;
+}
+
+.btn-secondary:hover {
+  background: #5a6268;
+}
+
+@media (max-width: 768px) {
+  .welcome-section {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .btn {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,68 @@
+/* RecoveryPage.css */
+.recovery-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f7f6;
+    min-height: 100vh;
+  }
+  
+  .recovery-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  textarea {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  
+  .btn-recover {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-recover:hover {
+    background-color: #0056b3;
+  }
+  
+  .wallet-details {
+    margin-top: 20px;
+  }
+  
+  .wallet-info {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .wallet-info div {
+    margin: 10px 0;
+  }
+  /* RecoveryPage.css */
+.blockchain-select {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+  }
+  

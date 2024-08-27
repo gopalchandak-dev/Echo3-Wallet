@@ -1,0 +1,102 @@
+/* SolanaWalletPage.css */
+.solana-wallet-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+/* Background similar to Ethereum wallet */
+  min-height: 100vh;
+  position: relative;
+}
+
+.back-button-container {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.btn-back {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.btn-back:hover {
+  background-color: #2980b9;
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.create-wallet-container {
+  margin-bottom: 10px;
+}
+
+.account-network-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+  background: #f7f9f9  ;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%; /* Adjusted to match Ethereum wallet */
+  max-width: 800px;
+  margin: 9px;
+}
+
+.select-account-container,
+.select-network-container {
+  padding: 20px;
+  /* background: #ffffff; */
+  border-radius: 10px;
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+.wallet-details-container {
+  padding: 20px;
+  background: #f7f9f9 ;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 150%;
+  max-width: 800px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.wallet-public-key {
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.btn-info {
+  background-color: #3498db;
+  border-color: #17a2b8;
+  color: white;
+}
+
+.send-status {
+  color: red;
+}
