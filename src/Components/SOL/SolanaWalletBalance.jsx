@@ -1,3 +1,6 @@
+/**
+ * "This page allows users to check their Solana balance and send transactions on both the mainnet and devnet.
+ */
 import React, { useEffect, useState } from 'react';
 import { Connection, PublicKey, Transaction, SystemProgram, Keypair } from '@solana/web3.js';
 import './SolanaWalletBalance.css';
@@ -64,18 +67,18 @@ const SolanaWalletBalance = ({ publicKey, secretKey, network }) => {
         preflightCommitment: 'processed',
       });
   
-      // Poll for transaction confirmation
+
       let isConfirmed = false;
       let retries = 0;
       while (!isConfirmed && retries < 10) {
         const confirmation = await connection.getSignatureStatus(signature);
         if (confirmation.value && confirmation.value.confirmationStatus === 'confirmed') {
           isConfirmed = true;
-          await fetchBalance(); // Update balance after confirmation
+          await fetchBalance(); 
           setSendStatus('Transaction sent successfully!');
         } else {
           retries += 1;
-          await new Promise(resolve => setTimeout(resolve, 3000)); // Wait 3 seconds before retrying
+          await new Promise(resolve => setTimeout(resolve, 3000)); 
         }
       }
   

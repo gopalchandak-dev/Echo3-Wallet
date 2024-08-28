@@ -1,3 +1,7 @@
+/**
+ * Main page for generating Solana wallets and managing private keys.
+ */
+
 import React,{ useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { Keypair } from '@solana/web3.js';

@@ -1,3 +1,6 @@
+/**
+ *  This page is currently under development and will be available soon. 
+ */
 import React, { useState } from 'react';
 import { Wallet, HDNodeWallet } from "ethers";
 import { mnemonicToSeed } from "bip39";
@@ -18,7 +21,7 @@ const RecoveryPage = () => {
     setError('');
     try {
       const seed = await mnemonicToSeed(seedPhrase);
-      const derivationPath = `m/44'/60'/0'/0/0`; // Use the exact path used when the account was created
+      const derivationPath = `m/44'/60'/0'/0/0`; 
       const hdNode = HDNodeWallet.fromSeed(seed);
       const child = hdNode.derivePath(derivationPath);
       const wallet = new Wallet(child.privateKey);

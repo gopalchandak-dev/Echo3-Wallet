@@ -1,3 +1,6 @@
+/**
+ * "This page allows users to check their Etherueum balance and send transactions on both the mainnet and Sepolia networks.
+ */
 import React, { useState, useEffect } from 'react';
 import { ethers } from 'ethers';
 import './EthereumWalletBalance.css';

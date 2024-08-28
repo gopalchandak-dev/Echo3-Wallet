@@ -1,8 +1,41 @@
-# React + Vite
+# Web-Based Crypto Wallet (ECHO3)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hello devs/folks,
 
-Currently, two official plugins are available:
+Welcome to the Web-Based Crypto Wallet project! This project is designed to interact with two major blockchains: Solana and Ethereum. It allows users to generate accounts, view private keys, and send crypto to other accounts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **Account Generation**: Create new crypto wallets for both Solana and Ethereum blockchains.
+- **Private Key Management**: View private keys associated with your wallets securely.
+- **Send Crypto**: Send crypto from your wallets to other accounts.
+- **Testnets**: Utilize testnets for both Solana (Devnet) and Ethereum (Sepolia) to test transactions.
+- **Testnet Faucets**: Deposit testnet faucets to see transactions in action.
+
+## Quick Start
+
+To get started with this project, follow these steps:
+
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/gopalchandak-dev/Echo3-Wallet
+2. Navigate to the project directory:
+   ```bash
+   cd Echo3-Wallet
+3. Install the dependencies:
+
+   ```bash
+    npm install
+    #or
+    yarn install
+### Running the Development Server
+
+To start the development server, use:
+  ```bash
+    npm run build
+    # or
+    yarn build

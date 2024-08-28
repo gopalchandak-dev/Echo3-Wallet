@@ -1,10 +1,8 @@
-/* SolanaWalletPage.css */
 .solana-wallet-page {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-/* Background similar to Ethereum wallet */
   min-height: 100vh;
   position: relative;
 }
@@ -50,7 +48,7 @@ h1 {
   background: #f7f9f9  ;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 100%; /* Adjusted to match Ethereum wallet */
+  width: 100%; 
   max-width: 800px;
   margin: 9px;
 }
@@ -58,7 +56,7 @@ h1 {
 .select-account-container,
 .select-network-container {
   padding: 20px;
-  /* background: #ffffff; */
+
   border-radius: 10px;
   width: 100%;
   max-width: 800px;

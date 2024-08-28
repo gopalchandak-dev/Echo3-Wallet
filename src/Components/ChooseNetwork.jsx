@@ -1,4 +1,6 @@
-// ChooseNetwork.jsx
+/**
+ * Page for selecting between Ethereum and Solana network.
+ */
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './ChooseNetwork.css';

@@ -1,4 +1,3 @@
-// ethereumUtils.js
 import { ethers } from 'ethers';
 
 export const sendEthereum = async (recipientAddress, amountInEth) => {

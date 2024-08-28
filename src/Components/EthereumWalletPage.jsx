@@ -1,3 +1,7 @@
+/**
+ * Main page for generating Ethereum wallets and managing private keys.
+ * 
+ */
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Wallet, HDNodeWallet } from 'ethers';
@@ -11,7 +15,6 @@ import './EthereumWalletPage.css';
 const EthereumWalletPage = () => {
   const navigate = useNavigate();
   const { ethereumMnemonic } = useWallet();
-
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selectedAccountIndex, setSelectedAccountIndex] = useState(null);
   const [selectedNetwork, setSelectedNetwork] = useState('sepolia');

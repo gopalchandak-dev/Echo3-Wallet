@@ -1,4 +1,3 @@
-// MainApp.jsx
 import React from 'react';
 import { WalletProvider } from './Components/ETH/WalletContext'; // Import the WalletProvider
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -7,7 +6,7 @@ import ChooseNetwork from './Components/ChooseNetwork';
 import RecoveryPage from './Components/RecoveryPage';
 import CreateAccountEthereum from './Components/ETH/CreateAccountEthereum';
 import EthereumWalletPage from './Components/EthereumWalletPage';
-import CreateAccountSolana from './Components/SOl/CreateAccountSolana'; // Import the new component
+import CreateAccountSolana from './Components/SOL/CreateAccountSolana'; // Import the new component
 import SolanaWalletPage from './Components/SolanaWalletPage'; 
 
 
